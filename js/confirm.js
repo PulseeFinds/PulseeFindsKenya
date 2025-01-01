@@ -99,13 +99,21 @@
             setTimeout(hideLoader, 1500); // Adjust timing as necessary
         }
     });
-
     document.getElementById('PlaceOderBtn').addEventListener('click', () => {
-        var  emailContent ={
-            user_name: `${userDetails.name}`,
-            user_email: `${userDetails.email}`,
-            user_address:`${userDetails.county},${userDetails.town} `,
-            cart_details:`${checkoutInfo.map(item => `${item.name} - Quantity: ${item.quantity},  Total: $ ${item.price.toFixed(2)}`).join("\n")}`
+        if(!checkoutInfo.one){
+            var  emailContent ={
+                user_name: `${userDetails.name}`,
+                user_email: `${userDetails.email}`,
+                user_address:`${userDetails.county},${userDetails.town} `,
+                cart_details:`${checkoutInfo.map(item => `${item.name} - Quantity: ${item.quantity},  Total: Ksh ${item.price.toFixed(2)}`).join("\n")}`
+            }
+        }else{
+            var  emailContent ={
+                user_name: `${userDetails.name}`,
+                user_email: `${userDetails.email}`,
+                user_address:`${userDetails.county},${userDetails.town} `,
+                cart_details:`${checkoutInfo.name} - Quantity: ${checkoutInfo.quantity}, Total: Ksh ${checkoutInfo.price}`
+            }
         }
         emailjs.send('service_rdhbkax','template_txvo14h', emailContent)
 	    .then(function(response) {
