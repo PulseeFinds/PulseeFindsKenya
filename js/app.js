@@ -331,7 +331,6 @@ function CalculateTotalPrice(){
         }
         const checkoutInfo = Carts.map(cart => {
             const product = Products.find(p => p.id == cart.product_id);
-            console.log(product.name);
             if(cart.color === undefined){
                 return{
                     name:product.name,
