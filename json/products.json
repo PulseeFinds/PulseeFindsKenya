@@ -1,0 +1,171 @@
+[
+    {
+        "id":1,
+        "name":"Kids Led Shoe",
+        "color":"Brown",
+        "image":"Kids-led-shoe-Brown.jpg",
+        "price":2450,
+        "description":"These stylish and durable sneakers are perfect for kids, combining playful design with practicality.The shoes feature a futuristic LED sole that lights up with vibrant colors, making every step exciting. Designed with  comfort in mind ,they come with breathable material and easy-to-use laces for a snug fit. Ideal for both casual wear and standout moments.        Size 21-30       Available in ✅Pink ✅White     ✅Brown",
+        "variants":[
+            {"color":"Pink","price":2450,"image":"Kids-Led-shoe-pink.jpg"},
+            {"color":"White","price":2450,"image":"Kids-Led-Shoe-White.jpg"}
+        ]
+    },
+    {
+        "id":2,
+        "name":"Air Max 95 (Original)",
+        "image":"Air-Max-95-(original).jpg",
+        "price":4500,
+        "description":"These modern athletic shoes offer a sleek design with black, grey, and neon green accents, combining performance with style.Featuring a cushioned air sole for superior comfort and shock absorption, they are perfect for running, training, or casual outings. The lightweight mesh upper ensures breathability, while the bold color details add a pop of vibrancy to our look.           `Sizes 40-45`"
+    },
+    {
+        "id":3,
+        "name":"Versace",
+        "image":"Versace3.jpg",
+        "price":7500,
+        "description":"Elevate your formal wardrobe with these premium black loafers. Featuring intricate geometric patterns and a signature gold medallion accent, they exude sophistication and exclusivity. Crafted with top-quality materials for maximum durability and comfort, these loafers are perfect for special occasions or making a statement in everyday formal settings. The robust sole adds practicality to this high-fashioned piece.         Size 40-45"
+    },
+    {
+        "id":4,
+        "name":"Kids Jordan 3",
+        "color":"White & Red",
+        "image":"Kids-Jordan-3-white-red.jpg",
+        "price":3000,
+        "description":"Experience the perfect blend of style and performance with the Kids Air Jordan 4 Motorsport.The visible air  cushioning in the sole ensures superior comfort shock absorption, while the iconic 'Jumpman' logo on the tongue adds a touch of classic Jordan branding. Designed for both athletic activities and casual wear, these sneakers offer a modern twist on a timeless design, making them a must-have for any sneaker enthusiast.   Sizes 25-35",
+        "variants":[
+            {"color":"White & Blue","price":2000,"image":"Kids-Jordan-3-white-n-blue.jpg"},
+            {"color":"Black ,White & Yellow ","price":2000,"image":"Kids-Jordan-3-white-black-n-yellow.jpg"},
+            {"color":"Black ,White & Red ","price":2000,"image":"Kids-Jordan-3-black-n-white.jpg"}
+        ]
+    },
+    {
+        "id":5,
+        "name":"Air Force One Plain",
+        "color":"White",
+        "image":"Air-force-one-plain-white.jpg",
+        "price":2500,
+        "description":"Elevate your sneaker game with the timeless Nike Air Force 1. The durable leather upper provides a sleek and clean appearance,while the cushioned midsole ensures all-day-comfort. The iconic Air cushioning in the sole offers excellent support and shock absorption. Perfect for any casual outfit, these sneakers blend heritage design with modern style, making them a must-have for any sneaker enthusiast.          Sizes 36---45",
+        "variants":[
+            {"color":"Black","price":1800,"image":"Air-Force-one-Black.jpg"}
+        ]
+    },
+    {
+        "id":6,
+        "name":"Adidas Samba ",
+        "color":"White",
+        "image":"Addidas-Samba-White.jpg",
+        "price":3500,
+        "description":"Classic meets modern with the Adidas Samba Sneakers. These iconic shoes feature a sleek black leather upper complemented by white signature stripes and a gum sole for timeless style. The embossed 'Samba' gold lettering adds a touch of sophistication, while the textured sole ensures durability and grip. Perfect for casual outings or a statement piece for streetwear enthusiasts, these sneakers blend heritage design with everyday comfort.          Available in plenty Sizes 36-45",
+        "variants":[
+            {"color":"Black ","price":3500,"image":"Addidas-Samba-Black-brown-soul.jpg"},
+            {"color":"White & Red","price":3500,"image":"Addidas-Samba-.jpg"}
+        ]
+    },
+    {
+        "id":7,
+        "name":"Adidas Terrex",
+        "color":"Navy Blue",
+        "image":"Addidas-Terrex-Navy-Blue.jpg",
+        "price":4500,
+        "description":"Conquer any terrain with the Adidas Terrex. These robust sneaker are designed for durability and support. The breathable upper ensures comfort during intense activities, while the rugged sole provides excellent traction on various surfaces. Perfect for outdoor adventures or casual wear, these sneakers combine functionality with a sleek, modern design. The Adidas Terrex is your go-to choice for both performance and style.           Now available in sizes 40 - 45",
+        "variants":[
+            {"color":"Black & White","price":4500,"image":"Addidas-Terrex-Black-white2.jpg"}
+        ]
+    },
+    {
+        "id":8,
+        "name":"Nike Zoom",
+        "color":"Pink",
+        "image":"Nike-Zoom-Pink.jpg",
+        "price":3500,
+        "description":"Elevate your running experience with Nike Zoom . These lightweight trainers combine style and performance with breathable mesh upper in soft tones, contrasted by the signature nike Swoosh. The cushioned Zoom sole ensures responsive comfort and optimal energy return for every stride. Whether for workouts or casual wear, these shoes offer a perfect balance of fashion and function, finished with a flexible rubber sole for superior traction.         Fully restocked Sizes 36 - 40",
+        "variants":[
+            {"color":"Black","price":3500,"image":"Nike-Zoom-Black.jpg"}
+        ]
+    },
+    {
+        "id":9,
+        "name":"Air Jordan 4",
+        "color":"Pink Oreo",
+        "image":"Air-Jordan-4-White3.jpg",
+        "price":4000,
+        "description":"Step up your sneaker game with the Air Jordan 4 Retro.The signature netting on the side and unique lacing system provide both style and support, while while the visible air unit in the  heel ensures maximum comfort and cushioning. The iconic 'Jumpman' logo on the tongue adds a touch of classic Jordan branding. Perfect for both athletic activities and casual wear, these sneakers offer a perfect blend of heritage design and modern flair.         Now available in sizes 36 - 41",
+        "variants":[
+            {"color":"Black","price":4000,"image":"Air-Jordan-4-Black-pink.jpg"}
+        ]
+    },
+    {
+        "id":10,
+        "name":"Nike Air",
+        "color":"Grey",
+        "image":"Nike-air-grey.jpg",
+        "price":3500,
+        "description":"Step into the future with Nike Air Max infinity 2. The breathable mesh upper ensures maximum comfort and ventilation, while the visible air cushioning unit in the heel provides exceptional support and shock absorption. The embroidered swoosh and 'air' branding on the midsole add a touch of classic Nike style. Perfect for both athletic activities and casual wear, these sneakers blend cutting-edge technology with timeless design.      Sizes 40/41/42/43/44/45",
+        "variants":[
+            {"color":"Black","price":3500,"image":"Nike-air-black.jpg"},
+            {"color":"White","price":3500,"image":"Nike-air-white.jpg"}
+        ]
+    },
+    {
+        "id":11,
+        "name":"Lv Trainers",
+        "color":"Black & Red",
+        "image":"Lv-trainers-black-red.jpg",
+        "price":3500,
+        "description":"Elevate your sneaker wardrobe with the this Lv Trainers.Featuring distinctive design with cut-out patterns, these sneakers are perfect for both athletic activities and casual wear. The breathable upper ensures comfort, while the sturdy sole provides excellent support and durability. These sneakers combine functionality with a trendy look, making them great addition to your wardrobe.         Sizes 40/41/42/43/44/45",
+        "variants":[
+            {"color":"Grey","price":3500,"image":"Lv-trainers-grey.jpg"},
+            {"color":"Black & White","price":3500,"image":"Lv-trainers-black-white.jpg"},
+            {"color":"Black Plain","price":3500,"image":"Lv-trainers-black-plain2.jpg"},
+            {"color":"White & Black","price":3500,"image":"Lv-trainers-white-black.jpg"},
+            {"color":"Navy Blue & Grey","price":3500,"image":"Lv-trainers-navy-blue-grey3.jpg"}
+        ]
+    },
+    {
+        "id":12,
+        "name":"Adidas Campus",
+        "image":"Addidas-Campus3.jpg",
+        "price":3800,
+        "description":"Embrace classic style with the Adidas Campus. These sleek black sneakers feature the iconic white stripes and a durable design, perfect for every day wear. The premium leather upper provides a sophisticated look, while the cushioned midsole ensures all-day comfort. The rubber outsole offers excellent traction, making these sneakers ideal for both casual outings and more active pursuits. With their timeless design and modern comfort, the Adidas Campus is a must-have addition to any sneaker collection.          Fully Stocked Sizes  36 - 45"
+    },
+    {
+        "id":13,
+        "name":"Airmax 95 Sketch (original)",
+        "image":"Air-Max-95-Sketch.jpg",
+        "price":4500,
+        "description":"Step into the future with the Airmax 95 infinity Sketch. These sleek black sneakers feature a blood white accents and a unique lacing system, making  a striking statement. The breathable upper ensures maximum comfort and ventilation, while the visible air cushioning unit in the heel provides exceptional support and shock absorption. The embroidered swoosh and 'Air Max'branding on the midsole add a classic Nike style. Perfect for both athletic activities and casual wear, these sneakers blend cutting-edge technology with timeless design.           Sizes 40 - 45"
+    },
+    {
+        "id":14,
+        "name":"Men Open Casuals",
+        "color":"Black",
+        "image":"Men-Open-Casuals-Black2.jpg",
+        "price":3500,
+        "description":"Step into effortless style with these comfortable Open Casuals. Featuring a cut-out design and thick soles, these sandals are perfect for casual wear. It's robust construction ensures durability and support. Ideal for everyday use, these sandals blend comfort with a modern aesthetic, making them a versatile addition to your footwear collection.         New Arrivals Quality 💯💯 Sizes 39 - 44 (big feet)",
+        "variants":[
+            {"color":"Brown","price":3500,"image":"Men-Open-Casuals-Brown3.jpg"}
+        ]
+    },
+    {
+        "id":15,
+        "name":"Love Baby Sneakers",
+        "color":"Pink",
+        "image":"Love-Baby-Sneakers-Pink2.jpg",
+        "price":2800,
+        "description":"Make a bold statement with a Fashion Love Baby Sneakers. These eye-catching sneakers feature vibrant colors. The breathable upper ensures comfort, while the sturdy sole provides excellent support and durability. Perfect for both everyday wear and special occasions, the sneakers combine style and functionality, making them a standout addition to any wardrobe.         Fully Stocked 💯💯  Sizes 26 - 36",
+        "variants":[
+            {"color":"White","price":2800,"image":"Love-Baby-Sneakers-White2.jpg"}
+        ]
+    },
+    {
+        "id":16,
+        "name":"Philip Plein Crocodile Sneakers",
+        "color":"White",
+        "image":"Casual-White.jpg",
+        "price":3500,
+        "description":"Elevate your style with the Philip Plein Crocodile Sneakers. These luxurious while sneakers feature a distinctive crocodile skin texture and a metallic `PP` emblem on the side, adding a touch of sophistication. The visible air cushioning in the sole ensures maximum comfort and support, making them perfect for both casual and upscale occasions. With their unique design and premium materials, these are standout addition to any fashion-forward wardrobe.         Sizes 40 - 45",
+        "variants":[
+            {"color":"Black","price":3500,"image":"Casual-Black.jpg"}
+        ]
+    }
+]
