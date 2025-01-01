@@ -104,7 +104,7 @@
             var  emailContent ={
                 user_name: `${userDetails.name}`,
                 user_email: `${userDetails.email}`,
-                user_address:`${userDetails.county},${userDetails.town} `,
+                user_address:`County:${userDetails.county},Town:${userDetails.town}, Phone: ${userDetails.number}`,
                 cart_details:`${checkoutInfo.map(item => `${item.name} - Quantity: ${item.quantity},  Total: Ksh ${item.price.toFixed(2)}`).join("\n")}`
             }
         }else{
