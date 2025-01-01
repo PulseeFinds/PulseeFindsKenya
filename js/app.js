@@ -71,7 +71,7 @@ function RenderProducts(page){
         let cartDiv = document.createElement('div');
 
 
-        imageDiv.href = '/details.html?id=' + product.id;
+        imageDiv.href = './details.html?id=' + product.id;
         
         NewItem.classList.add("Product-container");
         imageDiv.classList.add("img-container");
