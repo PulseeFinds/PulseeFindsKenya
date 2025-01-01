@@ -98,12 +98,6 @@ function AddDataToDetails(){
                         
                     });
                     
-                    // document.querySelectorAll('input[name="variant"]').forEach((cb) => {
-                    //     if(!cb.checked ){
-                    //         selectedVariant = null;
-                    //     }
-                    // });
-
                 });
 
 
@@ -135,7 +129,7 @@ window.addEventListener("pageshow", (event) => {
 
 Remove_Display.addEventListener("click", () =>{
             loader.style.display = "Flex";
-            window.location.href = "/"
+            window.location.href = "./"
 }
 );
 
