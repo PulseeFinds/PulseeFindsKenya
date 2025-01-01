@@ -219,7 +219,6 @@ function changeQuantity(product_id,type){
     AddCartToMemory();
     AddCartToHtml();
 }
-
 document.getElementById('buyNow').addEventListener('click', () => {
     let productId = new URLSearchParams(window.location.search).get('id');
         let ThisProduct = Items.filter(data => {
@@ -229,6 +228,7 @@ document.getElementById('buyNow').addEventListener('click', () => {
 
         if(selectedVariant == null){
             let checkoutInfo = {
+                    one:true,
                     name:ThisProduct.name,
                     image:ThisProduct.image,
                     quantity: 1,
@@ -237,6 +237,7 @@ document.getElementById('buyNow').addEventListener('click', () => {
             localStorage.setItem('checkoutInfo', JSON.stringify(checkoutInfo));
         }else{
             let checkoutInfo = {
+                    one:true,
                     name:`${ThisProduct.name} - ${selectedVariant.color} `,
                     image:selectedVariant.image,
                     quantity: 1,
