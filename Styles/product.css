@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Content{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #cee5ec;
+    /* background-color: #f1f1f1; */
+    /* color: #fff; */
+}
+.Content .main_display{
+    margin:0  1%;
+    display: flex;
+    /* background-color: #18acdd; */
+    /* background: #e4e4e4; */
+    border-radius: 20px;
+    height: 99vh;
+    border:3px solid  #41cbce;
+}
+.Content .main_display .dis-left{
+    width:45%;
+}
+.Content .main_display .dis-left #Remove_Display{
+    position: absolute;
+    color: #41cbce;
+    background-color:#f1f1f1 ;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+.Content .main_display .dis-left #Remove_Display img{
+    width: 50px;
+    height: 50px;
+}
+.Content .main_display .dis-left .dis_img{
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+.Content .main_display .dis-left .dis_img img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.Content .main_display .dis-right{
+    width: 55%;
+    text-align: center;
+    position: relative;
+}
+.Content .main_display .dis-right button{
+    height: 40px;
+    padding: 5px;
+    width: max-content;
+    border: 2px solid;
+    color:white;
+    background-color:#30c9cc;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    /* font-weight: 545; */
+    
+    &:hover{
+        color:#41cbce;
+        background-color:white;
+
+    }
+}
+.Content .main_display .dis-right .dis-name{
+    font-weight: 900;
+    font-size:x-large;
+    padding: 5px;
+}
+.Content .main_display .dis-right .dis-des p{
+    padding: 10px;
+    font-weight: 500;
+    font-size: medium;
+    line-height: 20px;
+    height: 150px;
+}
+.Content .main_display .dis-right .options{
+    position: absolute;
+    inset: 50% 50% 50% 50%;
+}
+.Content .main_display .dis-right .options button{
+    width: 90px;
+    font-weight: 600;
+}
+.Content .main_display .dis-right .dis-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+.Content .main_display .dis-right .dis-btn .left_btn{
+    right:0 ;
+    border-bottom-right-radius: 15px;
+}
