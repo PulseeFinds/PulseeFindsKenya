@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulsee Finds | Product Display</title>
+    <link rel="shortcut icon" href="Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Styles/details.css">
+    <link rel="stylesheet" href="Styles/loader.css">
+</head>
+<body>
+    
+    <div class="Loader">
+        <svg
+            class="LoaderContainer" 
+            x="0px" 
+            y="0px"
+            viewBox="0 0 50 31.25"
+            height="31.25"
+            width="50"
+            preserveAspectRatio='xMidYMid meet'
+        >
+    <path 
+        class="track"
+        stroke-width="4" 
+        fill="none" 
+        pathlength="100"
+        d="M0.625 21.5 h10.25 l3.75 -5.875 l7.375 15 l9.75 -30 l7.375 20.875 v0 h10.25"
+    />
+    <path 
+        class="car"
+        stroke-width="4" 
+        fill="none" 
+        pathlength="100"
+        d="M0.625 21.5 h10.25 l3.75 -5.875 l7.375 15 l9.75 -30 l7.375 20.875 v0 h10.25"
+    />
+        </svg>
+    </div>
+
+    <div class="Content">
+        <div class="main_display">
+            <div class="dis-left">
+                <abbr title="Back" id="Remove_Display">
+                    <img src="icons/icon-arrow-down.svg" id="icon">
+                </abbr>
+                <div class="dis_img">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="dis-right">
+                <div class="dis-name"></div>
+                <div class="dis-des">
+                    <p></p>
+                </div>
+                <div class="dis-price">
+                    <!-- <h1>Total Price:</h1> -->
+                    <img src="icons/Coins.png" alt="">
+                    <h1> </h1>
+                    <h2>.Ksh</h2>
+                </div>
+                <div class="options">
+                    <button>Options</button>
+                </div>
+                <div class="optionsDis" >
+                    <button id="closeBtn" >&times;</button>
+                    <div class="values">
+                        <!-- <div class="modal ">
+                            <img src="images/LV_Green.jpg" id="modalImage">
+                            <h2 id="modalName">black & Red</h2>
+                            <p id="modalPrice">200</p>
+                            <input type="checkbox" name="modal" id="modal">
+                        </div> -->
+                    </div>
+                </div>
+                <div class="dis-btn">
+                    <button class="addToCart" >Add to cart
+                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                        </svg>
+                    </button>
+                    <button id="buyNow" class="left_btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="js/details.js"></script>
+</body>
+</html>
