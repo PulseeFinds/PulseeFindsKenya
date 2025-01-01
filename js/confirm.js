@@ -100,6 +100,7 @@
         }
     });
     document.getElementById('PlaceOderBtn').addEventListener('click', () => {
+	    loader.style.display = "Flex";
         if(!checkoutInfo.one){
             var  emailContent ={
                 user_name: `${userDetails.name}`,
@@ -119,11 +120,12 @@
 	    .then(function(response) {
 	            console.log('SUCCESS!', response.status, response.text);
                 window.alert('Your oder has been received and is being processed!');
-                loader.style.display = "Flex";
                 window.location = 'thankyou.html';
+		localStorage.removeItem('cart');
 
 	    }, function(err) {
 	                console.log('FAILED...', err);
                     alert('Something went wrong please try again');
+		    loader.style.display = "none";
 	        });
     })
