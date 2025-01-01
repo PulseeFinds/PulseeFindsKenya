@@ -350,7 +350,6 @@ function CalculateTotalPrice(){
             }
         })
         localStorage.setItem('checkoutInfo', JSON.stringify(checkoutInfo));
-        showLoader();
         window.location.href = 'Account.html';
     });
 
